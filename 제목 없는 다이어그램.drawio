@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net" modified="2023-07-14T05:18:24.260Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Whale/3.21.192.18 Safari/537.36" etag="LPEoV-uJt3tXsxBdW-jA" version="21.6.2" type="github">
+  <diagram name="페이지-1" id="bavQPEMBGiu1h_pCleNV">
+    <mxGraphModel dx="1434" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g14udK7brX7VgH0R4HgY-2" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="510" y="40" width="82.4" height="82.4" as="geometry" />
+        </mxCell>
+        <mxCell id="g14udK7brX7VgH0R4HgY-3" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="90" height="91.2" as="geometry" />
+        </mxCell>
+        <mxCell id="g14udK7brX7VgH0R4HgY-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="520" as="sourcePoint" />
+            <mxPoint x="280" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g14udK7brX7VgH0R4HgY-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.526;entryY=1.054;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="g14udK7brX7VgH0R4HgY-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="553" y="520" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g14udK7brX7VgH0R4HgY-6" value="SYN (SEQ=0, LEN=0)" style="endArrow=oval;html=1;rounded=0;targetPerimeterSpacing=2;sourcePerimeterSpacing=2;startArrow=classic;startFill=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="190" as="sourcePoint" />
+            <mxPoint x="279" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g14udK7brX7VgH0R4HgY-8" value="SYN, ACK (SEQ=0, ACK=1, LEN=0)" style="endArrow=classic;html=1;rounded=0;targetPerimeterSpacing=2;sourcePerimeterSpacing=2;startArrow=oval;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="210" as="sourcePoint" />
+            <mxPoint x="280" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g14udK7brX7VgH0R4HgY-10" value="ACK (SEQ=1, ACK=1, LEN=0)" style="endArrow=oval;html=1;rounded=0;targetPerimeterSpacing=2;sourcePerimeterSpacing=2;startArrow=classic;startFill=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="310" as="sourcePoint" />
+            <mxPoint x="280" y="280" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g14udK7brX7VgH0R4HgY-11" value="GET HTTP(SEQ=1, ACK=1, LEN=562" style="endArrow=oval;html=1;rounded=0;targetPerimeterSpacing=2;sourcePerimeterSpacing=2;startArrow=classic;startFill=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="549" y="360" as="sourcePoint" />
+            <mxPoint x="279" y="330" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g14udK7brX7VgH0R4HgY-12" value="받았어! (ACK=1, SET)" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;size=20;position=0.15;base=11;" vertex="1" parent="1">
+          <mxGeometry x="560" y="150" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g14udK7brX7VgH0R4HgY-13" value="통신요청!(SEQ=0)" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;size=20;position=0.75;base=20;" vertex="1" parent="1">
+          <mxGeometry x="130" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g14udK7brX7VgH0R4HgY-15" value="SEQ = 1&lt;br&gt;ACK = 1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;size=20;position=0.75;base=20;" vertex="1" parent="1">
+          <mxGeometry x="140" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g14udK7brX7VgH0R4HgY-19" value="TCP 3 way Handshake" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="720" y="350" as="sourcePoint" />
+            <mxPoint x="720" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g14udK7brX7VgH0R4HgY-22" value="Established.." style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="520" as="sourcePoint" />
+            <mxPoint x="720" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g14udK7brX7VgH0R4HgY-23" value="ACK (SEQ=1, ACK=563, LEN=0)" style="endArrow=classic;html=1;rounded=0;targetPerimeterSpacing=2;sourcePerimeterSpacing=2;startArrow=oval;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry x="0.0012" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="400" as="sourcePoint" />
+            <mxPoint x="280" y="430" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g14udK7brX7VgH0R4HgY-24" value="HTTP (SEQ=1, ACK=563, LEN=597)" style="endArrow=classic;html=1;rounded=0;targetPerimeterSpacing=2;sourcePerimeterSpacing=2;startArrow=oval;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="430" as="sourcePoint" />
+            <mxPoint x="280" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g14udK7brX7VgH0R4HgY-25" value="GET HTTP(SEQ=563, ACK=598)" style="endArrow=oval;html=1;rounded=0;targetPerimeterSpacing=2;sourcePerimeterSpacing=2;startArrow=classic;startFill=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="549" y="520" as="sourcePoint" />
+            <mxPoint x="279" y="490" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
